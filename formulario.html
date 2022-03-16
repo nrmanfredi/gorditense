@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularito</title>
+        <link rel="stylesheet" href="css/estilo.css"
+    </head>
+    <body>
+        <h1>Formulario final</h1>
+        <form required="true">
+            <fieldset>
+                <legend>Cuestionario para la gordita</legend>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre gordita"/><br>
+                <label for="Apellido">Apellido:</label><br>
+                <input type="text" id="Apellido" name="apellido" placeholder="Tu apellido gordita" required="true"/><br>
+                <label>Email</label><br>
+                <input type="email" placeholder="mailcito" required="true"><br>
+                <label for="contraseña">Contraseña</label><br>
+                <input type="password" id="contraseña" placeholder="Contraseñaaa" required="true"/><br>
+                <label for="edad">Edad</label><br>
+                <input type="number" id="edad" placholder="años gordite" step="any"> <br>
+                <label>Genero:</label><br>
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br>
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="otros" name="genero" value="otros">
+                <label >Otros</label><br>
+                <label for="pais_de_residencia">Pais de residencia</label><br>
+                <select id="pais_de_residencia"  name="paisitos">
+                    <option value="Uruguay" >Uruguay</option>
+                    <option value="Argentina">Argentini</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Chile">Chile</option>
+                </select><br>
+                <label for="preguntita">¿Una cosa mas que querias agregar?</label><br>
+                <textarea id="preguntita" name="pregunta" rows="3" cols="40">Contame</textarea></br>
+                <label for="gorditite">¿La gorditita es la mas linda?</label><br>
+                <input type="text" id="gorditite" value="Sí" name="gorditebella" readonly="true"><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <br>
+        <a href="/Para la gorditita.html">Acá volvés a la página principal.</a>
+    </body>

@@ -1,0 +1,51 @@
+h1{
+    color:red;
+    margin: 0px 0px 0px 400px
+}
+h2{
+    color:red;
+    margin: 0px 0px 0px 400px
+}
+h3{
+   color: red;
+   margin: 0px 0px 0px 400px 
+}
+h4{
+    color:red;
+    margin: 0px 0px 0px 400px;
+}
+p{
+    background-color: grey;
+    color: whitesmoke;
+      
+}
+a:link {
+    color:yellow;
+
+}
+a:visited {
+    color:green;
+    text-decoration: none;
+}
+caption{
+    color:rgb(135, 160, 160)
+}
+th{
+    color:aqua;
+    background-color: black;
+}
+tr:nth-child(odd){
+    background-color: rgb(240, 240, 118);
+}
+ol li::after{
+    content: '.'
+}
+.gordite{
+    color:rgb(5, 5, 5);
+}
+
+
+
+
+
+
